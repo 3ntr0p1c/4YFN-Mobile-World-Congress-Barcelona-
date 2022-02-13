@@ -20,3 +20,17 @@ Two datasets will be used: the first contains data from Nuwefruit customers and 
 - NB PRODS: Number of 'prods' of the fruit variety in the order (1 prod = 10 pieces of fruit)
 - ORDER ID: Unique identifier of the order
 - FRUIT_PRODUCT: Variety of fruit
+
+
+Objective
+
+The are two main objectives:
+
+1. Make an exploratory analysis of the data that allows:
+
+- Analyze sales and customer activity
+- Evaluate the impact of the promotion
+
+2. Perform a predictive model that allows knowing the type of segment to which each client belongs based on the predictor variables: AVG CONSO', 'AVG BASKET SIZE', 'RECEIVED_COMMUNICATION.
+
+Reference metric for model evaluation: f1-score ('macro')
